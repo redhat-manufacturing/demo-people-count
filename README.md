@@ -44,23 +44,3 @@ To stop
 ```sh
  podman-compose down
 ```
-
-## Running Unit tests
-
-Replace the session id in 'unit_tests.py' with current session id
-```
-python3 unit_test.py
-```
-
-Replace the session id in 'unit_tests.py' with current session id
-```
-cd application/unit_tests
-python3 unit_test.py
-```
-
-For Streamer 
-```
-cd application/unit_tests
-python3 test_chunker.py
-python3 test_reader.py
-```
