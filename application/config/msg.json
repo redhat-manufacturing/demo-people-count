@@ -1,0 +1,99 @@
+{
+    "start_process" : {
+        "111" : "A stream is currently being processed",
+        "224" : "Please enter the right auth token",
+        "100" : "Processing stream",
+        "223" : "Please enter the auth token to proceed",
+        "401" : "Please enter the valid sess token to proceed",
+        "110" : "Error in processing"
+    },
+
+    "stream_status" : {
+        "223" : "Please enter the auth token to proceed",
+        "224" : "Please enter the right auth token",
+        "101" : "No stream is being processed",
+        "102" : "A stream is being processed",
+        "103" : "A stream is stopped but processing is active",
+        "110" : "Error in processing"
+    },
+
+    "stop_process" : {
+        "223" : "Please enter the auth token to proceed",
+        "224" : "Please enter the right auth token",
+        "111" : "No stream is being processed",
+        "100" : "Processing has stopped"
+    },
+
+    "stop_streaming" : {
+        "223" : "Please enter the auth token to proceed",
+        "224" : "Please enter the right auth token",
+        "111" : "No stream is being processed",
+        "112" : "Stream is stopped but processing is active",
+        "101" : "Stream has stopped successfully  but processing will continue"
+    },
+
+    "activate_license" : {
+        "223" : "Please enter the auth token to proceed",
+        "224" : "Please enter the right auth token",
+        "220" : "License is successfully validated",
+        "221" : "Error in license activation, please check the license key",
+        "222" : "License has already been validated ",
+        "225" : "Please enter the activation key to activate license"
+    },
+
+    "update_env" : {
+        "223" : "Please enter the auth token to proceed",
+        "224" : "Please enter the right auth token",
+        "100" : "Settings updated"
+    },
+
+    "get_frame" : {
+        "223" : "Please enter the auth token to proceed",
+        "224" : "Please enter the right auth token",
+        "100" : "frame retrieved successfully",
+        "110" : "frame retrieved unsuccessfully",
+        "111" : "No get frame input is set"
+    },
+
+    "data_fetch" : {
+        "223" : "Please enter the auth token to proceed",
+        "224" : "Please enter the right auth token",
+        "100" : "Data retrieved"
+    },
+
+    "set_roi" : {
+        "223" : "Please enter the auth token to proceed",
+        "224" : "Please enter the right auth token",
+        "100" : "Region of Interest updated",
+        "110" : "Error in coordinates"
+    },
+
+    "dashboard_login" : {
+        "223" : "Please enter the auth token to proceed",
+        "234" : "Failed to receive session token",
+        "225" : "Login successful",
+        "224" : "Please enter the right auth token"
+    },
+
+    "dashboard_data" : {
+        "223" : "Please enter the auth token to proceed",
+        "234" : "Failed to receive session token",
+        "225" : "Data retrieved",
+        "450" : "Incorrect session token",
+        "224" : "Please enter the right auth token"
+
+    },
+    "dashboard_data_post" : {
+        "223" : "Please enter the auth token to proceed",
+        "234" : "Failed to receive session token",
+        "225" : "Data retrieved",
+        "450" : "Incorrect session token",
+        "224" : "Please enter the right auth token"
+
+    },
+    "save_logs":{
+        "225" : "successfully fetched logs",
+        "226" : "Unable to fetch logs"
+    }
+
+}

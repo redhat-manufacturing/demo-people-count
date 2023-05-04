@@ -1,0 +1,16 @@
+# Production: container-compose.yml
+services:
+  people_count:
+    container_name: people_count_janvi
+    build:
+      context: ./
+    ports:
+    - "5041:5041"
+    privileged: true
+    environment:
+    - PYTHONUNBUFFERED=1
+    devices:
+    - dev/video0
+    volumes:
+    - $PWD:/app
+    restart: always

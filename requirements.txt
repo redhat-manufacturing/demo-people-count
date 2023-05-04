@@ -1,0 +1,15 @@
+flask
+flask_cors
+python-dotenv
+opencv-python
+requests
+Pillow
+tqdm
+#torch==1.9.1
+#torchvision==0.10.1
+pandas
+scipy
+tflite_runtime
+imutils
+getmac
+# picamera
