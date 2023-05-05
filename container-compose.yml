@@ -1,9 +1,10 @@
 # Production: container-compose.yml
 services:
-  people_count:
-    container_name: people_count_janvi
+  app:
+    container_name: people_count
     build:
       context: ./
+    image: people_count-dev
     ports:
     - "5041:5041"
     privileged: true

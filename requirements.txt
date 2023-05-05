@@ -12,4 +12,5 @@ scipy
 tflite_runtime
 imutils
 getmac
+openvino
 # picamera

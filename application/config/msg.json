@@ -52,7 +52,7 @@
         "224" : "Please enter the right auth token",
         "100" : "frame retrieved successfully",
         "110" : "frame retrieved unsuccessfully",
-        "111" : "No get frame input is set"
+        "111" : "Please provide an camera source"
     },
 
     "data_fetch" : {
