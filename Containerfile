@@ -12,6 +12,7 @@ people in a facility as well as head count."
 RUN yum update -y
 RUN yum install -y python3 python3-pip python3-devel g++
 
+
 WORKDIR /app
 COPY . /app
 COPY application/licenses/ /licenses/
@@ -24,7 +25,5 @@ RUN pip install wheel
 RUN pip install lap
 RUN pip install -r requirements.txt
 RUN pip install opencv-python-headless
-# ARG SPORT
 EXPOSE 5041
-# python3 main.py 2> >(grep -vE "(INFO|WARNING)" >&2)
 CMD ["python3","./run.pyc"]
