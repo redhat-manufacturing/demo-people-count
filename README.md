@@ -64,7 +64,7 @@ To stop
 
 ## To run a video
 Once the image is running
-Get the Container ID
+get the Container ID
 ```sh
  podman ps
 ```
