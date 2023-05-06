@@ -15,3 +15,5 @@ services:
     volumes:
     - $PWD:/app
     restart: always
+    devices:
+      - /dev/video0:/dev/video0
