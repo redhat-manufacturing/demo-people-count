@@ -13,11 +13,11 @@ No need to clone github repo
 ```sh
  $ podman login quay.io
  $ podman volume create people-count-storage
- $ podman pull quay.io/guiseai_retail/people-count:ob_1.0.1
+ $ podman pull quay.io/guiseai_retail/people-count:ob_1.0.1_ovino
  $ podman run --name people-count-container \
   -p 5041:5041 \
   -v people-count-storage:/app/ \
-  -d quay.io/guiseai_retail/people-count:ob_1.0.1
+  -d quay.io/guiseai_retail/people-count:ob_1.0.1_ovino
 ```
 
 ## 2. Build image locally and run it using podman commands
@@ -68,3 +68,16 @@ URL to access dashboard = localhost:5041
 IP = 127.0.0.1
 PORT = 5041
 TOKEN = 0 
+
+
+## To run a video
+Once the image is running
+get the Container ID
+```sh
+ podman ps
+```
+Copy the Video in the container
+```sh
+ podman cp <videofile> <container_id>:/app/
+```
+From the Web UI, enter the video file name in the IP Camera input section
