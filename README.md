@@ -12,11 +12,11 @@ No need to clone github repo
 
 ```sh
  $ podman login quay.io
- $ podman volume create <volume_name>
+ $ podman volume create people-count-storage
  $ podman pull quay.io/guiseai_retail/people-count:ob_1.0.1
  $ podman run --name people-count-container \
   -p 5041:5041 \
-  -v <volume_name>:/app/ \
+  -v people-count-storage:/app/ \
   -d quay.io/guiseai_retail/people-count:ob_1.0.1
 ```
 
@@ -64,9 +64,7 @@ To stop
 
 # Dashboard
 
-```sh
 URL to access dashboard = localhost:5041
 IP = 127.0.0.1
 PORT = 5041
 TOKEN = 0 
-```
