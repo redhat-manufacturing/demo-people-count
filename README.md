@@ -61,3 +61,16 @@ To stop
 ```sh
  podman-compose down
 ```
+
+##To run a video
+Once the image is running
+Get the Container ID
+```sh
+ podman ps
+```
+Copy the Video in the container
+```sh
+ podman cp <videofile> <container_id>:/app/
+```
+From the Web UI, enter the video file name in the IP Camera input section
+
