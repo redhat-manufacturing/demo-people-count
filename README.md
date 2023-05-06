@@ -68,3 +68,16 @@ URL to access dashboard = localhost:5041
 IP = 127.0.0.1
 PORT = 5041
 TOKEN = 0 
+
+
+## To run a video
+Once the image is running
+get the Container ID
+```sh
+ podman ps
+```
+Copy the Video in the container
+```sh
+ podman cp <videofile> <container_id>:/app/
+```
+From the Web UI, enter the video file name in the IP Camera input section
