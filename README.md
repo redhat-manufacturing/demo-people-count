@@ -13,11 +13,11 @@ No need to clone github repo
 ```sh
  $ podman login quay.io
  $ podman volume create people-count-storage
- $ podman pull quay.io/guiseai_retail/people-count:ob_1.0.1_ovino
+ $ podman pull quay.io/guiseai_retail/people-count:ob_1.0.1
  $ podman run --name people-count-container \
   -p 5041:5041 \
   -v people-count-storage:/app/ \
-  -d quay.io/guiseai_retail/people-count:ob_1.0.1_ovino
+  -d quay.io/guiseai_retail/people-count:ob_1.0.1
 ```
 
 ## 2. Build image locally and run it using podman commands
