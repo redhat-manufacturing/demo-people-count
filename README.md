@@ -62,7 +62,7 @@ To stop
  podman-compose down
 ```
 
-##To run a video
+## To run a video
 Once the image is running
 Get the Container ID
 ```sh
