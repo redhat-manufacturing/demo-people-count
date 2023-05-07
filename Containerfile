@@ -24,5 +24,7 @@ RUN pip install wheel
 RUN pip install lap
 RUN pip install -r requirements.txt
 RUN pip install opencv-python-headless
+# ARG SPORT
 EXPOSE 5041
+# python3 main.py 2> >(grep -vE "(INFO|WARNING)" >&2)
 CMD ["python3","./run.pyc"]

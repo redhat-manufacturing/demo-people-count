@@ -1,0 +1,11 @@
+temp_chunks
+application/temp_chunks
+logs
+application/logs
+*pycache*
+*.mp4
+.DS_Store
+application/.DS_Store
+*pythonsqlite*
+*.lic
+scheduler_logs.txt

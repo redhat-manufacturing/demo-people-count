@@ -1,0 +1,13 @@
+application/temp_chunks
+application/logs
+application/streamer-old
+logs
+temp_chunks
+application/.DS_Store
+.DS_Store
+scheduler_logs.txt
+
+**/*pycache*
+**/*.mp4
+**/*pythonsqlite*
+**/*.lic
