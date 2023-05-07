@@ -12,11 +12,11 @@ No need to clone github repo
 
 ```sh
  $ podman login quay.io
- $ podman volume create people-count-storage
+ $ podman volume create people-count-storage-ovino
  $ podman pull quay.io/guiseai_retail/people-count:ob_1.0.1_ovino
- $ podman run --name people-count-container \
+ $ podman run --name people-count-container-ovino \
   -p 5041:5041 \
-  -v people-count-storage:/app/ \
+  -v people-count-storage-ovino:/app/ \
   -d quay.io/guiseai_retail/people-count:ob_1.0.1_ovino
 ```
 
@@ -32,14 +32,14 @@ clone the repo
 1. build the image and create storage
 ```sh
  $ podman build -t people-count .
- $ podman volume create people-count-storage
+ $ podman volume create people-count-storage-ovino
 ```
 
 2. run the image
 ```sh
- podman run --name people-count-container \
+ podman run --name people-count-container-ovino \
   -p 5041:5041 \
-  -v people-count-storage:/app/ \
+  -v people-count-storage-ovino:/app/ \
   -d people-count
 ```
 
